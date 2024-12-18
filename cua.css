@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+   }
+   body{
+       background-color: dimgrey;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+.nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 80px;
+    justify-content: right;
+    width: 1350px;
+}
+.navbar{
+    display: flex;
+    margin-right: 550px;
+   
+}
+.navbar img{
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 10px;
+
+}
+.navbar h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.list ul{
+    display: flex;
+}
+.list li{
+    padding: 30px;
+    list-style: none;
+    
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: darkgoldenrod;
+}
+
+.a{
+    text-align: center;
+    background-color: dimgray;
+}
+.a h1{
+    font-size: 50px;
+    color: red;
+}
+.pic{
+    margin-top: 50px;
+}
+.pic img{
+    width: 1350px;
+    height:800px ;
+}
+.text{
+    
+    position: relative;
+    bottom: 400px;
+    left: 300px;
+
+}
+.text h3{
+    font-size: 60px;
+    color: crimson;
+}
+.text h4{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+
